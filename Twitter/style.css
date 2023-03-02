@@ -1,0 +1,117 @@
+body{
+    background-color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.main-1,.main-3{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    color: #fff;
+}
+
+.main-2{
+    display: flex;
+    flex-direction: column;
+    border-left: 0.01rem solid #ffffff9d;
+    border-right: 0.01rem solid #ffffff9d;
+    width: 50%;
+}
+
+.logo{
+    border-radius: 25px;
+}
+
+a{
+    transition: all .2s ease;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width:fit-content;
+    padding: 1rem;
+
+}
+
+a:hover{
+    background-color: #2b2b2b;
+}
+
+.foot-banner{
+    background-color: rgb(0, 143, 245);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.foot-btn{
+    background-color: #000;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 25px ;
+    margin: 1rem 0.3rem 0.3rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: 0.5px solid #00000000;
+}
+
+.grey{
+    color: #525252;
+}
+
+.tweet{
+    display: flex;
+}
+
+.hastag{
+    color: rgb(0, 149, 255);
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.hastag:hover{
+    background: none;
+    text-decoration:underline;
+}
+
+.padding{
+    padding: 0 1rem 0 1rem;
+}
+
+.width-80{
+    padding: 1rem;
+}
+
+.tag{
+    text-align: center;
+    color: #3e3e3e;
+    font-size: 1.2rem;
+}
+
+.tag:hover{
+    border-radius: 0;
+}
+
+.grow{
+    flex-grow: 3;
+}
+
+.thread{
+    border-bottom: 0.01rem solid #ffffff9d ;
+    border-radius: 0;
+    width: 83%;
+    padding-left: 5.5rem;
+    color: rgb(0, 179, 255);
+    font-size: 1.2rem;
+}
