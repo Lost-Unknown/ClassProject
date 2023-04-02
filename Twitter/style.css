@@ -18,17 +18,23 @@ body{
     display: flex;
     flex-direction: column;
     width: 25%;
+    height: 90vh;
+    overflow-y: scroll;
     color: #fff;
+}
+.main-3{
+    padding-right: 3rem;
 }
 
 .main-2{
     display: flex;
     flex-direction: column;
+    height: 90vh;
+
     border-left: 0.01rem solid #ffffff37;
     border-right: 0.01rem solid #ffffff37;
     width: 50%;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y:scroll;
 }
 
 .logo{
@@ -126,6 +132,7 @@ a:hover{
     height: 40px;
     border-radius: 25px;
     border:none;
+    padding: 1rem 0rem;
     background: rgba(110, 110, 110, 0.605);
     padding-left: 3rem;
     font-size: 1rem;
@@ -187,4 +194,21 @@ a:hover{
 .bottom-round:hover{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+body::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+.main-1::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+.main-2::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+.main-3::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
 }

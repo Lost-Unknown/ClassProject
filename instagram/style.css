@@ -1,8 +1,8 @@
 nav{
-    width:60% ;
+    width:65% ;
     display: flex;
     margin: 0 auto 0 auto;
-    padding:1rem 2rem 0rem 2rem;
+    padding:.8rem 2rem 0rem 2rem;
     justify-content: center;
 
 }
@@ -26,7 +26,7 @@ hr{
 }
 
 .Login{
-    width: 5rem;
+    width: 4.5rem;
     height: 2rem;
     border: none;
     border-radius: 7px;
@@ -37,10 +37,15 @@ hr{
     width: 15rem;
     border-radius: 7px;
     border: none;
-    background: #e2e2e2b5;
+    background-color: #e2e2e2b5;
     padding-left:1rem ;
     color: #828282;
     font-size: 1rem;
+    background-image: url(https://www.svgrepo.com/show/127033/magnifying-glass.svg);
+    background-size: .8rem;
+    padding-left: 3rem;
+    background-position: 20px 12px;
+    background-repeat: no-repeat;
 }
 
 .search:focus { 
@@ -65,7 +70,7 @@ hr{
 }
 
 .logo-back{
-    background: linear-gradient(240deg,rgb(123, 0, 255),rgb(255, 0, 0),rgb(253, 161, 11));
+    background: linear-gradient(240deg,rgb(255, 0, 183),rgb(253, 213, 11));
     width: 176px;
     height: 176px;
     margin: 2rem 5rem 2rem 5rem;
@@ -77,14 +82,14 @@ hr{
     width: 160px;
     height:160px;
     border-radius: 100%;
-    border: 0.2rem solid #fff;
-    background: url(cooltext430736149532932.png),linear-gradient(45deg,#000,#fff);
+    border: 0.3rem solid #fff;
+    background: url(cooltext430736149532932.png),linear-gradient(45deg,#000,#373737);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     position: relative ;
-    top:0.3rem;
-    left: 0.3rem; 
+    top:0.2rem;
+    left: 0.2rem; 
 }
 
 .details{
@@ -149,6 +154,62 @@ a{
 
 .tag{
     color: #616161b0;
-    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin: 0rem 2rem 0.5rem 2rem;
+    padding-top: 1rem;
     font-weight: 500;
+    font-size: .8rem;
+}
+
+.post{
+    height:20rem;
+    background: #000;
+}
+
+.grid{
+    padding-top: 3rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 30%));
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.post-overlay:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 9;
+    background: #2626265a;
+}
+
+.post-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #ffffff00;
+    z-index: 9;
+    background: #26262600;
+}
+
+.foot-tag{
+    color: #828282;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 7px 0 7px;
+}
+
+.foot-tag:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    font-size: 13px;
+    color: #9a9a9a;
+    text-align: center;
 }

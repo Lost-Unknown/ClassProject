@@ -168,8 +168,7 @@ h4{
 }
 
 .item:hover{
-    width: 30%;
-    height: 50%;
+    transform: scale(1.1);
     box-shadow: 10px 10px 1.2rem #000;
 }
 
@@ -309,4 +308,9 @@ h4{
 .login-link{
     width: 10%;
     width: 10%;
+}
+
+body::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
 }
