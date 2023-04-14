@@ -16,7 +16,7 @@ function selcetdata(){
    localStorage.setItem("cBack",back);
    localStorage.setItem("cName",pName);
    localStorage.setItem("cPrice",pPrice);
-   window.location.href = "details.html";
+   window.location.href = "ClassProject/details.html";
 }
 document.querySelector(".image-back").style.backgroundImage = localStorage.getItem("cBack");
 document.querySelector(".productName").textContent = localStorage.getItem("cName");
